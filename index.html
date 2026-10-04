@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Saurav Rana - IT student and aspiring software developer portfolio">
+    <title>Saurav Rana | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <p class="eyebrow">PERSONAL PORTFOLIO</p>
+            <h1>Saurav Rana</h1>
+            <p class="tagline">IT Student &amp; Aspiring Software Developer</p>
+
+            <nav aria-label="Primary navigation">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about" class="card about-section">
+            <div class="about-grid">
+                <div class="photo-wrap">
+                    <img src="profile.jpeg"
+                         alt="Portrait of Saurav Rana"
+                         width="360"
+                         height="420">
+                </div>
+
+                <div class="about-content">
+                    <p class="section-label">ABOUT ME</p>
+                    <h2>Building my skills, one project at a time.</h2>
+                    <p>
+                        I am an IT student interested in software development,
+                        data structures, web technologies, and practical projects.
+                        I enjoy building simple applications that solve everyday
+                        problems while developing a strong foundation for an IT career.
+                    </p>
+
+                    <div class="quick-info">
+                        <div>
+                            <strong>Focus</strong>
+                            <span>Software Development</span>
+                        </div>
+                        <div>
+                            <strong>Interests</strong>
+                            <span>Web &amp; Programming</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="card">
+            <p class="section-label">WHAT I KNOW</p>
+            <h2>Technical Skills</h2>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-number">01</span>
+                    <h3>HTML5</h3>
+                    <p>Creating accessible and semantic web pages.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">02</span>
+                    <h3>Java</h3>
+                    <p>Object-oriented programming and application development.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">03</span>
+                    <h3>C++</h3>
+                    <p>Data structures, algorithms, and problem solving.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">04</span>
+                    <h3>Git</h3>
+                    <p>Tracking code changes and managing project repositories.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="card">
+            <p class="section-label">MY WORK</p>
+            <h2>Projects</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-tag">PROJECT 01</span>
+                        <span class="project-arrow">↗</span>
+                    </div>
+                    <h3>Perfume Warehouse Management System</h3>
+                    <p>
+                        A beginner-friendly management application concept for
+                        tracking perfume information, stock-in records, outgoing
+                        stock, and warehouse activities.
+                    </p>
+                    <a href="https://github.com/saurav-rana/perfume-warehouse-management"
+                       target="_blank" rel="noopener noreferrer">
+                        View repository
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-tag">PROJECT 02</span>
+                        <span class="project-arrow">↗</span>
+                    </div>
+                    <h3>Hotel Customer Check-In System</h3>
+                    <p>
+                        A simple hotel management project concept for recording
+                        customer check-ins, assigning rooms, handling food-service
+                        requests, and calculating charges.
+                    </p>
+                    <a href="https://github.com/SauravRana01/Saurav-Rana"
+                       target="_blank" rel="noopener noreferrer">
+                        View repository
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="card contact-section">
+            <div>
+                <p class="section-label">GET IN TOUCH</p>
+                <h2>Contact Me</h2>
+                <p class="contact-copy">
+                    Have a question or want to connect? Send me a message.
+                </p>
+            </div>
+
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"
+                       autocomplete="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"
+                       autocomplete="email" placeholder="you@example.com" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6"
+                          placeholder="Write your message..." required></textarea>
+
+                <button type="submit">Send Message <span>→</span></button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Saurav Rana. All rights reserved.</p>
+    </footer>
+</body>
+</html>
